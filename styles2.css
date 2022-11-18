@@ -21,7 +21,7 @@ body{
 }
 .mainbody{
     grid-area: main;
-    height: 400px;
+    height: 380px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
