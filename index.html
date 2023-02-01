@@ -2,12 +2,12 @@
 <html lang="en">
     <head>
         <title>Daphne Wang - Personal Webpage</title>
-        <link rel="stylesheet" href="styles2.css">
+        <link rel="stylesheet" href="styles_landscape.css" id="CSSfile">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
         <meta name="author" content="Daphne Wang">
     </head>
-<body>
+<body onload="change_css()" onresize="change_css()">
     <div class="header">
         <div>
             <h1>Daphne Wang</h1>
@@ -114,7 +114,7 @@
         </ul>
 
     </div>
-    <div class="nav">
+    <div class="nav" id="nav">
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#publications">Publications</a></li>
@@ -124,7 +124,7 @@
             <li><a href="#prev-affil">Previous affiliations</a></li>
             </ul>
     </div>
-
+<script src="format.js"></script>
 </body>
 </html>
 
