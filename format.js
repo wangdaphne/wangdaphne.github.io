@@ -14,7 +14,7 @@ function print_elementsize()
 function change_css(){
     var fullHeight = window.outerWidth,
         fullWidth = window.outerHeight;
-    if (fullWidth < fullHeight)
+    if (fullWidth > fullHeight)
     {
         document.getElementById('CSSfile').href='styles_portrait.css';
     }

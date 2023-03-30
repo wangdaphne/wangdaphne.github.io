@@ -21,8 +21,7 @@ body{
 }
 .mainbody{
     grid-area: main;
-    /* height: 400px; */
-    /* width: 1051px; */
+    height: 380px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
@@ -41,8 +40,6 @@ span.details{
 
 /*Title*/
 .header{
-    /* height: 200px;
-    width: 1169.5px; */
     grid-area: header;
     text-align: center;
     background-image: url("gradient_bg.jpg");
@@ -69,8 +66,6 @@ div.header h3{
 
 /*Nav Bar*/
 .nav{
-    /* width: 233.75px;
-    height: 420px; */
     grid-area: nav;
     border-left: 3px black solid;
 }
