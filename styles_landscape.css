@@ -38,6 +38,16 @@ span.details{
     text-decoration: underline;
 }
 
+th.links{
+    width: 25%;
+    text-align: center;
+}
+
+th.links > a{
+    color: black;
+    text-decoration: none;
+}
+
 /*Title*/
 .header{
     grid-area: header;
