@@ -1,0 +1,48 @@
+/* Fonts */
+@font-face {
+    font-family: "LouisGeorgeCafe";
+    src: url(Louis_George_Cafe.ttf);
+}
+
+@font-face {
+    font-family: "Timeless";
+    src: url(Timeless.ttf);
+}
+
+/* Body */
+
+img.id{
+    width: 30%;
+    float: right;
+    padding-left: 30px;
+}
+
+span.details{
+    text-decoration: underline;
+}
+
+th.links{
+    width: 25%;
+    text-align: center;
+}
+
+th.links > a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Title*/
+.header{
+    border-bottom: 3px black solid;
+    text-align: center;
+}
+
+h1{
+    font-family: "LouisGeorgeCafe", Helvetica, sans-serif;
+    font-size: 300%;
+}
+
+h3{
+    font-family: "Timeless", Garamond, serif;
+    font-style: italic;    
+}
