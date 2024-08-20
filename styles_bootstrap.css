@@ -11,6 +11,10 @@
 
 /* Body */
 
+body{
+    font-family: "Timeless", Garamond, serif;
+}
+
 img.id{
     width: 30%;
     float: right;
@@ -33,7 +37,8 @@ th.links > a{
 
 /*Title*/
 .header{
-    border-bottom: 3px black solid;
+    border-bottom: 2px black solid;
+    padding-top: 1%;
     text-align: center;
 }
 
@@ -45,4 +50,24 @@ h1{
 h3{
     font-family: "Timeless", Garamond, serif;
     font-style: italic;    
+}
+
+/* Nav */
+.nav-link{
+    color: #00a3bb;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+/* Links */
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #00a3bb;
 }
